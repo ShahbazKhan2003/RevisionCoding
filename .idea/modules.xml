@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodingPractise/CodingPractise.iml" filepath="$PROJECT_DIR$/CodingPractise/CodingPractise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Coding_Revison.iml" filepath="$PROJECT_DIR$/.idea/Coding_Revison.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
     </modules>
