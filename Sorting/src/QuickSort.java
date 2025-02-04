@@ -4,6 +4,14 @@
 import java.util.Arrays;
 
 public class QuickSort {
+    public static void quickSort(int[] arr , int low , int high){
+        if(low < high){
+            int partitionIdx = partition(arr , low , high);
+            quickSort(arr ,  low , partitionIdx-1);
+            quickSort(arr , partitionIdx+1 , high);
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = {4 , 1 , 3 , 9, 7};
 
@@ -32,12 +40,5 @@ public class QuickSort {
         arr[j] = temp;
         return j;
 
-    }
-    public static void quickSort(int[] arr , int low , int high){
-        if(low < high){
-            int partitionIdx = partition(arr , low , high);
-            quickSort(arr ,  low , partitionIdx-1);
-            quickSort(arr , partitionIdx+1 , high);
-        }
     }
 }
