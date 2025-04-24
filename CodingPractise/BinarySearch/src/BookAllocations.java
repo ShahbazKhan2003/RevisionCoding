@@ -1,5 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class BookAllocations {
     public static void main(String[] args) {
+        List<Integer> rand = new ArrayList<>();
         int[] arr = {12, 34, 67, 90};
         int k = 2;
         int st = 0 , end = 0;
